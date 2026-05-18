@@ -1,0 +1,17 @@
+name: encrypt_decrypt
+description: A simple command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.9.2
+
+# Add regular dependencies here.
+dependencies:
+  crypto: ^3.0.3
+  pointycastle: ^3.9.1
+  shelf: ^1.4.1
+  envied: ^0.5.4
+
+dev_dependencies:
+  lints: ^6.0.0
